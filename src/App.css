@@ -1,0 +1,86 @@
+
+.container 
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;background-color: rgb(212, 230, 224);
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.img{
+  border-radius: 25px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  object-fit: cover;
+  text-align: center;
+  width: 600px;
+}
+
+.caixa-message{
+  width: 600px;
+  background-color: antiquewhite;
+  margin: 50px;
+  border-radius: 15px;
+  padding: 25px;
+}
+.caixa-message p {
+  text-align: justify;
+}
+.btn button{
+  margin-left: 15px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: rgb(7, 85, 59);
+  border-radius: 10px;
+
+}
+
+
+@media screen and (max-width:720px) {
+  .container 
+{
+
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+}
+
+.container h1 {
+  font-size: 35px;
+}
+.img{
+  border-radius: 25px;
+
+}
+
+.img img {
+ width: 400px;
+}
+
+.caixa-message{
+  width: 300px;
+}
+.btn {
+  display: flex;
+}
+.btn button{
+  width: 150px;
+
+
+}
+  
+}
