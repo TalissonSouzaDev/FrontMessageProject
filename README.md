@@ -9,11 +9,11 @@ Instale my-project com npm
 
 ```bash
   git clone 
-  cd messageproject
+  cd FrontMessageProject
   npm install
   npm run dev
 ```
     
 ![Foto 1](./src//assets/img/sistema1.png)
-![Foto 2](./src//assets/img/sistema1.png)
+![Foto 2](./src//assets/img/sistema2.png)
 
